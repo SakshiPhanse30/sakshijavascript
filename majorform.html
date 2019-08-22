@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Registration form:</title>
+  
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="majorform.css">
+ 
+  <script type="text/javascript" src="majorform.js"></script>
+</head>
+<body style="background-color:aquamarine;">
+ 
+  <div class="main">
+    <h1 style="color:blue;">Register Here...</h1>
+  </br>
+   
+    <form  id="form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+      <input type="text" name="name" class="form-control" id="name" >
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+      <input type="text" name="email" class="form-control" id="email" ></div>
+     
+     
+    
+
+
+
+      <div class="form-group">
+        <label for="mobile">Contact number:</label>
+      <input type="text" name="mobile" class="form-control" id="number" >
+      </div>
+
+      <!-- <div class="form-group">
+         <b> Date of Birth (MM/DD/YYYY):</b> 
+          <input type="text" class="datepicker minimumSize" name="BirthDate" id="lastReporteddate"/>
+         <input type="submit" id="button" value="ok">
+      </br>
+    </br> -->
+      <div class="form-group">
+          <label for="age">Age:</label>
+        <input type="text" name="age" class="form-control" id="age">
+        </div>
+        
+  
+
+      <div class="form-group">
+        <label for="profile">Profile URL:</label>
+      <input type="text" name="profile" class="form-control" id="profile">
+      </div>
+      
+
+      
+      <div class="form-group">
+        <label for="address">Address:</label>
+      <input type="text" name="address" class="form-control" id="address">
+      </div>
+
+
+      <div class="form-group">
+      <b>Your Gender: </b><input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+      </div>
+      <div class="form-group">
+        <input type="submit" value="submit" name="submit"><br/>
+        <div class="form-group">
+          <input type="submit" value="Reset" class="submit" class="form-control">
+        </div>
+          
+      
+    </form>
+  </div>
+  <p> Your name: </p>
+  <p> email: </p>
+  
+  <p> number: </p>
+  <p> Age: </p>
+  <p> profile: </p>
+  <p> address: </p>
+ 
+  <p id="result"></p>
+</body>
+</html>
